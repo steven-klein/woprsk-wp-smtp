@@ -118,7 +118,7 @@ class WP_SMTP
             $phpmailer->Username = self::$WP_MAIL_SMTP_USERNAME;
 
             // Password to use for SMTP authentication
-            $phpmailer->Password = self::$WP_MAIL_SMTP_USERNAME;
+            $phpmailer->Password = self::$WP_MAIL_SMTP_PASSWORD;
         }
     }
 
