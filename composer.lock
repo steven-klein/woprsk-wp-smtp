@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "724f0d871b6a80195919439f8560983e",
+    "content-hash": "0641bd58ee15b15335c9c865446e41d1",
     "packages": [
         {
             "name": "composer/installers",
@@ -125,6 +125,47 @@
                 "zikula"
             ],
             "time": "2018-08-27T06:10:37+00:00"
+        },
+        {
+            "name": "woprsk/wp-utilities",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/steven-klein/woprsk-wp-utilities.git",
+                "reference": "86ee8e0f3293fbb497f6e775ccd56531662ffac8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/steven-klein/woprsk-wp-utilities/zipball/86ee8e0f3293fbb497f6e775ccd56531662ffac8",
+                "reference": "86ee8e0f3293fbb497f6e775ccd56531662ffac8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "woprsk\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steven Klein",
+                    "email": "steve@sklein.io"
+                }
+            ],
+            "description": "A collection of WordPress utility classes for use in WordPress projects",
+            "time": "2019-12-05T22:41:45+00:00"
         }
     ],
     "packages-dev": [],

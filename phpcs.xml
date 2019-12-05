@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ruleset name="woprsk">
+  <description>woprsk Coding Standards</description>
+  <file>/</file>
+  <arg name="basepath" value="/"/>
+  <arg name="extensions" value="php"/>
+  <arg name="report" value="full"/>
+  <arg name="warning-severity" value="6"/>
+  <arg name="colors"/>
+  <arg value="s"/>
+  <rule ref="PSR2" />
+</ruleset>
