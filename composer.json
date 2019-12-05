@@ -4,7 +4,7 @@
     "type": "wordpress-muplugin",
     "license": "MIT",
     "extra": {
-        "installer-name": "wp-smtp"
+        "installer-name": "woprsk-wp-smtp"
     },
     "authors": [{
         "name": "Steven Klein",
