@@ -14,7 +14,7 @@ add_action('muplugins_loaded', function() {
             defined('WP_MAIL_SMTP_USERNAME') ? WP_MAIL_SMTP_USERNAME : '',
             defined('WP_MAIL_SMTP_PASSWORD') ? WP_MAIL_SMTP_PASSWORD : '',
             defined('WP_MAIL_SMTP_SECURE') ? WP_MAIL_SMTP_SECURE : 'tls',
-            defined('WP_MAIL_LOG_ERRORS') ? WP_MAIL_LOG_ERRORS : false,
+            defined('WP_MAIL_LOG_ERRORS') ? WP_MAIL_LOG_ERRORS : false
         ))->setupHooks();
     }
 }, -9999);
