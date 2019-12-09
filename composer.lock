@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cfccc1d10452b64059f47db876bf4a64",
+    "content-hash": "1cfd6b6052067f4a818ed35ec9098563",
     "packages": [
         {
             "name": "composer/installers",
@@ -130,16 +130,16 @@
         },
         {
             "name": "woprsk/wp-utilities",
-            "version": "v0.1.2",
+            "version": "v0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/steven-klein/woprsk-wp-utilities.git",
-                "reference": "f49ceb0f3a916bfa1aca1dea916ed5e51b9de491"
+                "reference": "9911a283f59f32f218e30fbcd86397a090003398"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/steven-klein/woprsk-wp-utilities/zipball/f49ceb0f3a916bfa1aca1dea916ed5e51b9de491",
-                "reference": "f49ceb0f3a916bfa1aca1dea916ed5e51b9de491",
+                "url": "https://api.github.com/repos/steven-klein/woprsk-wp-utilities/zipball/9911a283f59f32f218e30fbcd86397a090003398",
+                "reference": "9911a283f59f32f218e30fbcd86397a090003398",
                 "shasum": ""
             },
             "require": {
@@ -167,7 +167,7 @@
                 }
             ],
             "description": "A collection of WordPress utility classes for use in WordPress projects",
-            "time": "2019-12-09T22:41:02+00:00"
+            "time": "2019-12-09T22:55:17+00:00"
         }
     ],
     "packages-dev": [
