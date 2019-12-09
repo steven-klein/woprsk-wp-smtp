@@ -6,7 +6,11 @@
  */
 
 add_action('muplugins_loaded', function() {
-    if (class_exists('\woprsk\WP\Mail\SMTP') && defined('WP_MAIL_SMTP_HOST')) {
+    if (!class_exists('\woprsk\WP\Mail\SMTP')) {
+        return;
+    }
+
+    if (defined('WP_MAIL_SMTP_HOST') && !empty(WP_MAIL_SMTP_HOST)) {
         (new \woprsk\WP\Mail\SMTP(
             WP_MAIL_SMTP_HOST,
             defined('WP_MAIL_SMTP_PORT') ? WP_MAIL_SMTP_PORT : 587,
